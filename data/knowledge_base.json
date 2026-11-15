@@ -1,0 +1,8 @@
+[
+  {"id":"horarios-gerais","title":"Horários de atendimento","text":"Esta base demonstrativa não contém horários reais de uma clínica. Consulte a unidade escolhida para confirmar expediente, feriados e disponibilidade."},
+  {"id":"agendamento","title":"Agendamento de consultas","text":"O agendamento desta demonstração é simulado e não cria uma consulta real. Confirme disponibilidade diretamente com a clínica antes de se deslocar."},
+  {"id":"vacinacao","title":"Vacinação","text":"O calendário de vacinação depende da espécie, idade, histórico e avaliação profissional. Esta demonstração não recomenda protocolos nem substitui orientação veterinária."},
+  {"id":"emergencia","title":"Situações de urgência","text":"Em dificuldade respiratória, convulsão, intoxicação, trauma ou sangramento intenso, procure imediatamente um serviço veterinário de emergência. Esta demonstração não faz triagem clínica."},
+  {"id":"precos","title":"Preços e formas de pagamento","text":"Não há tabela real de preços cadastrada nesta demonstração. Consulte a clínica para valores, formas de pagamento e serviços incluídos."},
+  {"id":"privacidade","title":"Privacidade e dados","text":"Não envie dados pessoais ou informações sensíveis neste protótipo. As conversas não precisam ser persistidas para os exemplos locais."}
+]

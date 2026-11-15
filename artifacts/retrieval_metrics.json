@@ -1,0 +1,64 @@
+{
+  "sample_count": 6,
+  "recall_at_1": 0.5,
+  "recall_at_3": 0.6666666666666666,
+  "mrr_at_k": 0.5833333333333334,
+  "top_k": 3,
+  "details": [
+    {
+      "query": "A clínica atende em feriados?",
+      "relevant_document": "horarios-gerais",
+      "retrieved": [
+        "horarios-gerais",
+        "emergencia"
+      ],
+      "relevant_rank": 1
+    },
+    {
+      "query": "Como faço o agendamento de uma consulta?",
+      "relevant_document": "agendamento",
+      "retrieved": [
+        "agendamento",
+        "horarios-gerais"
+      ],
+      "relevant_rank": 1
+    },
+    {
+      "query": "Meu filhote precisa de vacinas",
+      "relevant_document": "vacinacao",
+      "retrieved": [
+        "precos",
+        "horarios-gerais",
+        "agendamento"
+      ],
+      "relevant_rank": null
+    },
+    {
+      "query": "O que fazer se meu pet teve convulsão?",
+      "relevant_document": "emergencia",
+      "retrieved": [
+        "agendamento",
+        "emergencia"
+      ],
+      "relevant_rank": 2
+    },
+    {
+      "query": "Qual é o preço da consulta?",
+      "relevant_document": "precos",
+      "retrieved": [
+        "vacinacao",
+        "agendamento"
+      ],
+      "relevant_rank": null
+    },
+    {
+      "query": "Como vocês tratam os dados pessoais?",
+      "relevant_document": "privacidade",
+      "retrieved": [
+        "privacidade"
+      ],
+      "relevant_rank": 1
+    }
+  ],
+  "notice": "Conjunto sintético pequeno; mede apenas recuperação lexical, não qualidade de resposta LLM."
+}

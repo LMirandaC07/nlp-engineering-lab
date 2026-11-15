@@ -1,0 +1,97 @@
+text,label
+"Quero marcar uma consulta para meu cachorro",agendamento
+"Tem horário disponível para levar meu gato?",agendamento
+"Preciso agendar uma avaliação veterinária",agendamento
+"Como faço para reservar uma consulta?",agendamento
+"Quero marcar atendimento para amanhã",agendamento
+"Vocês têm agenda para esta semana?",agendamento
+"Pode agendar uma consulta para minha cachorra?",agendamento
+"Gostaria de marcar um horário com o veterinário",agendamento
+"Consigo reservar uma consulta para sexta?",agendamento
+"Quero passar meu pet em consulta",agendamento
+"Tem vaga para atendimento hoje à tarde?",agendamento
+"Preciso de um horário para meu coelho",agendamento
+"Quero desmarcar a consulta do meu pet",cancelamento
+"Preciso cancelar o horário de amanhã",cancelamento
+"Como cancelo uma consulta que marquei?",cancelamento
+"Não vou conseguir ir, pode cancelar?",cancelamento
+"Quero retirar meu agendamento",cancelamento
+"Por favor cancele a consulta do meu cachorro",cancelamento
+"Preciso desmarcar o veterinário",cancelamento
+"Pode cancelar meu horário de sexta-feira?",cancelamento
+"Não poderei comparecer à consulta",cancelamento
+"Quero cancelar a reserva para meu gato",cancelamento
+"Como faço para desmarcar o atendimento?",cancelamento
+"Cancele o horário que reservei para amanhã",cancelamento
+"Qual é o preço da consulta?",precos
+"Quanto custa uma consulta veterinária?",precos
+"Vocês podem informar os valores?",precos
+"Qual o preço para atender meu cachorro?",precos
+"Quanto fica uma consulta para gato?",precos
+"A vacinação tem algum custo?",precos
+"Queria saber o valor do atendimento",precos
+"Quanto vocês cobram pela consulta?",precos
+"Tem tabela de preços dos serviços?",precos
+"Qual o custo de uma avaliação?",precos
+"O retorno está incluído no valor?",precos
+"Quanto custa vacinar um filhote?",precos
+"Qual é o horário de funcionamento da clínica?",horarios
+"A clínica abre aos sábados?",horarios
+"Vocês atendem no domingo?",horarios
+"Até que horas posso levar meu pet?",horarios
+"Que horas a clínica abre amanhã?",horarios
+"Qual o expediente durante a semana?",horarios
+"Tem atendimento à noite?",horarios
+"A clínica funciona hoje à tarde?",horarios
+"Vocês fecham para almoço?",horarios
+"Qual é o horário de atendimento no feriado?",horarios
+"Posso ir agora ou está fechado?",horarios
+"A unidade abre no sábado de manhã?",horarios
+"Meu cachorro está com dificuldade para respirar",emergencia
+"Meu gato foi atropelado, o que faço?",emergencia
+"Ele está convulsionando e preciso de ajuda urgente",emergencia
+"Meu pet ingeriu veneno agora",emergencia
+"Está sangrando muito, é uma emergência",emergencia
+"Meu cachorro desmaiou",emergencia
+"Preciso de atendimento veterinário imediato",emergencia
+"Meu gato não consegue respirar",emergencia
+"Ele comeu um produto tóxico",emergencia
+"Minha cachorra está tendo uma convulsão",emergencia
+"Meu animal está muito mal e piorando rápido",emergencia
+"Há sangue e ele está muito fraco",emergencia
+"Quais vacinas meu filhote precisa tomar?",vacinacao
+"Vocês aplicam vacina antirrábica?",vacinacao
+"Quando devo vacinar meu cachorro?",vacinacao
+"A clínica faz vacinação de gatos?",vacinacao
+"Preciso atualizar a carteira de vacinas",vacinacao
+"Quais vacinas são recomendadas para cães?",vacinacao
+"Meu gato precisa de reforço da vacina",vacinacao
+"Tem vacina para filhotes de cachorro?",vacinacao
+"Como funciona a vacinação anual?",vacinacao
+"Quero vacinar meu coelho",vacinacao
+"Vocês têm vacina contra raiva?",vacinacao
+"A vacina precisa de agendamento?",vacinacao
+"Meu cachorro está coçando muito",sintomas
+"Meu gato parou de comer desde ontem",sintomas
+"Percebi um caroço na pata do meu pet",sintomas
+"Meu cachorro está vomitando",sintomas
+"O gato está espirrando bastante",sintomas
+"Meu animal está com diarreia",sintomas
+"Ele está mancando há dois dias",sintomas
+"Minha cachorra está muito quieta",sintomas
+"Meu gato está bebendo água demais",sintomas
+"O cachorro está tossindo",sintomas
+"Notei uma ferida na pele do meu cão",sintomas
+"Meu pet perdeu o apetite",sintomas
+"Onde fica a clínica veterinária?",localizacao
+"Qual é o endereço da unidade?",localizacao
+"Como chego até vocês?",localizacao
+"A clínica fica perto do metrô?",localizacao
+"Me passa a localização da clínica",localizacao
+"Vocês atendem em qual bairro?",localizacao
+"Tem estacionamento no local?",localizacao
+"Qual o endereço para levar meu cachorro?",localizacao
+"Quero saber como chegar à clínica",localizacao
+"A unidade fica em qual rua?",localizacao
+"Vocês têm mais de uma unidade?",localizacao
+"Pode enviar o endereço por favor?",localizacao

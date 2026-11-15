@@ -1,0 +1,225 @@
+{
+  "selected_model": "linear_svm",
+  "random_state": 42,
+  "rows_total": 96,
+  "rows_train": 67,
+  "rows_validation": 14,
+  "rows_test": 15,
+  "class_distribution": {
+    "agendamento": 12,
+    "cancelamento": 12,
+    "emergencia": 12,
+    "horarios": 12,
+    "localizacao": 12,
+    "precos": 12,
+    "sintomas": 12,
+    "vacinacao": 12
+  },
+  "results": [
+    {
+      "model": "dummy_most_frequent",
+      "validation_accuracy": 0.07142857142857142,
+      "validation_precision_macro": 0.008928571428571428,
+      "validation_recall_macro": 0.125,
+      "validation_macro_f1": 0.016666666666666666,
+      "test_accuracy": 0.13333333333333333,
+      "test_precision_macro": 0.016666666666666666,
+      "test_recall_macro": 0.125,
+      "test_macro_f1": 0.029411764705882353,
+      "fit_latency_ms": 7.322199875488877
+    },
+    {
+      "model": "multinomial_nb",
+      "validation_accuracy": 0.5714285714285714,
+      "validation_precision_macro": 0.53125,
+      "validation_recall_macro": 0.5625,
+      "validation_macro_f1": 0.48749999999999993,
+      "test_accuracy": 0.4,
+      "test_precision_macro": 0.41666666666666663,
+      "test_recall_macro": 0.4375,
+      "test_macro_f1": 0.4041666666666666,
+      "fit_latency_ms": 14.438100159168243
+    },
+    {
+      "model": "logistic_regression",
+      "validation_accuracy": 0.6428571428571429,
+      "validation_precision_macro": 0.5625,
+      "validation_recall_macro": 0.625,
+      "validation_macro_f1": 0.5666666666666667,
+      "test_accuracy": 0.3333333333333333,
+      "test_precision_macro": 0.3125,
+      "test_recall_macro": 0.3125,
+      "test_macro_f1": 0.29583333333333334,
+      "fit_latency_ms": 24.218000005930662
+    },
+    {
+      "model": "linear_svm",
+      "validation_accuracy": 0.7142857142857143,
+      "validation_precision_macro": 0.625,
+      "validation_recall_macro": 0.6875,
+      "validation_macro_f1": 0.65,
+      "test_accuracy": 0.3333333333333333,
+      "test_precision_macro": 0.3125,
+      "test_recall_macro": 0.3125,
+      "test_macro_f1": 0.29583333333333334,
+      "fit_latency_ms": 8.44080001115799
+    }
+  ],
+  "classification_report": {
+    "agendamento": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "cancelamento": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "emergencia": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "horarios": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "localizacao": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1-score": 0.6666666666666666,
+      "support": 2.0
+    },
+    "precos": {
+      "precision": 0.5,
+      "recall": 0.5,
+      "f1-score": 0.5,
+      "support": 2.0
+    },
+    "sintomas": {
+      "precision": 0.3333333333333333,
+      "recall": 0.5,
+      "f1-score": 0.4,
+      "support": 2.0
+    },
+    "vacinacao": {
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1-score": 0.8,
+      "support": 2.0
+    },
+    "accuracy": 0.3333333333333333,
+    "macro avg": {
+      "precision": 0.3125,
+      "recall": 0.3125,
+      "f1-score": 0.29583333333333334,
+      "support": 15.0
+    },
+    "weighted avg": {
+      "precision": 0.3333333333333333,
+      "recall": 0.3333333333333333,
+      "f1-score": 0.31555555555555553,
+      "support": 15.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "labels": [
+    "agendamento",
+    "cancelamento",
+    "emergencia",
+    "horarios",
+    "localizacao",
+    "precos",
+    "sintomas",
+    "vacinacao"
+  ],
+  "selection_metric": "validation_macro_f1",
+  "test_set_notice": "Pequeno dataset sintético; não representa desempenho em produção."
+}

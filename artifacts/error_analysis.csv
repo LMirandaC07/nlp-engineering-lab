@@ -1,0 +1,11 @@
+text,expected,predicted
+Quero retirar meu agendamento,cancelamento,vacinacao
+Preciso agendar uma avaliação veterinária,agendamento,precos
+Qual é o preço da consulta?,precos,horarios
+Vocês fecham para almoço?,horarios,agendamento
+Meu gato parou de comer desde ontem,sintomas,emergencia
+Ele está convulsionando e preciso de ajuda urgente,emergencia,sintomas
+Quero passar meu pet em consulta,agendamento,cancelamento
+Me passa a localização da clínica,localizacao,horarios
+Há sangue e ele está muito fraco,emergencia,sintomas
+Tem atendimento à noite?,horarios,agendamento

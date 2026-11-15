@@ -1,0 +1,8 @@
+[
+  {"query":"A clínica atende em feriados?","relevant_document":"horarios-gerais"},
+  {"query":"Como faço o agendamento de uma consulta?","relevant_document":"agendamento"},
+  {"query":"Meu filhote precisa de vacinas","relevant_document":"vacinacao"},
+  {"query":"O que fazer se meu pet teve convulsão?","relevant_document":"emergencia"},
+  {"query":"Qual é o preço da consulta?","relevant_document":"precos"},
+  {"query":"Como vocês tratam os dados pessoais?","relevant_document":"privacidade"}
+]
